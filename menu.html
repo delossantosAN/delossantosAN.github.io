@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6abc016678.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+</head>
+<body>
+    <!-- navigation starts here -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark px-3 fixed-top" data-bs-theme="dark">
+                    <div class="container justify-content-start">
+                    <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa-solid fa-bars-staggered"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><i class="fa-solid fa-mug-hot pe-2"></i>BLAC COFFEE</a>
+                    </div>
+                    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index2.html">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html" target="_self">Merchandise</a>
+                        </li>    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    <!-- nav ends here -->
+    <main>
+        <!-- 2nd nav -->
+        <div class="container nav2">
+            <div class="container d-flex justify-content-center">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container d-none d-sm-none d-md-none d-lg-block ">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#brewed">Brewed Coffee</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#hot">Hot Drinks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#iced">Iced Drinks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#frappe">Frappe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#specials">Specials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#dessert">Desserts</a>
+                            </li>
+                        </ul>
+                    </div>
+                <form class="d-flex justify-content-center" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </nav>
+            </div>
+            
+        </div>
+                
+    
+        <!-- ends here -->
+
+
+        <div class="container">
+                <div class="container text-center">
+                    <div class="container pt-5">
+                        <!-- menu categories -->
+                        <div class="container mt-5" id="brewed"><span class="fs-3 fw-bold mt-5">BREWED COFFEE</span></div>
+                        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-4 my-5 g-3">
+    
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-coldbrew">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/brew/CBRE_ColdBrew.jpg" alt="" class="menuImage"><p>Cold Brew</p><p>&#8369; 110.00</p></div>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-darkcaramelcoldbrew">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/brew/CBRE_DarkCaramelNitroColdBrew.jpg" alt="" class="menuImage"><p>Dark Caramel Cold Brew</p><p>&#8369; 120.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-saltedcaramelcoldbrew">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/brew/CBRE_SaltedCaramelColdBrew.jpg" alt="" class="menuImage"><p>Salted Caramel Cold Brew</p><p>&#8369; 120.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-vanillasweet">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/brew/CBRE_VanillaSweetCreamColdBrew.jpg" alt="" class="menuImage"><p>Vanilla Sweet Cream Cold Brew</p><p>&#8369; 125.00</p></div>
+                            </a>
+                            </div>
+                        </div>
+    
+                    <div class="container">
+                        <span class="fs-3 fw-bold" id="hot">HOT DRINKS</span>
+                        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-4 my-5 g-3">
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-espresso">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/hot/HESP_Espresso.jpg" alt="" class="menuImage"><p>Espresso</p><p>&#8369; 120.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-espressomacchiato">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/hot/HESP_EspressoMacchiato.jpg" alt="" class="menuImage"><p>Espresso Macchiato</p><p>&#8369; 130.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-hotbrew">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/hot/hotbrewed.jpg" alt="" class="menuImage"><p>Hot Brew</p><p>&#8369; 110.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-hotchoco">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/hot/hotchoco.jpeg" alt="" class="menuImage"><p>Hot Chocolate</p><p>&#8369; 120.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-hotwhite">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/hot/hotwhite.jpeg" alt="" class="menuImage"><p>Hot White Chocolate</p><p>&#8369; 120.00</p></div>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="container">
+                        <span class="fs-3 fw-bold" id="iced">ICED COFFEE</span>
+                        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-4 my-5 g-3">
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-hazelnut">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/iced/hazelnut.jpeg" alt="" class="menuImage"><p>Hazelnut Iced Coffee</p><p>&#8369; 135.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-icedamericano">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/iced/IESP_IcedAmericano.jpg" alt="" class="menuImage"><p>Iced Americano</p><p>&#8369; 130.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-icedcafelatte">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/iced/IESP_IcedCaffeLatte.jpg" alt="" class="menuImage"><p>Iced Caffe Latte</p><p>&#8369; 130.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-icedcappuccino">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/iced/IESP_IcedCappuccino.jpg" alt="" class="menuImage"><p>Iced Cappuccino</p><p>&#8369; 130.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-icedcaramelmacchiato">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/iced/IESP_IcedCaramelMacchiato.jpg" alt="" class="menuImage"><p>Iced Caramel Macchiato</p><p>&#8369; 135.00</p></div>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="container">
+                        <span class="fs-3 fw-bold" id="frappe">FRAPPE</span>
+                        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-4 my-5 g-3">
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-caramelfrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCOF_CaramelFrappuccino.jpg" alt="" class="menuImage"><p>Caramel Frappuccino</p><p>&#8369; 140.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-coffeefrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCOF_CoffeeFrappuccino.jpg" alt="" class="menuImage"><p>Coffee Frappuccino</p><p>&#8369; 140.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-jellyfrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCOF_CoffeeJellyFrappuccino.jpg" alt="" class="menuImage"><p>Coffee Jelly Frappuccino</p><p>&#8369; 140.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-darkcaramelfrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCOF_DarkCaramelCoffeeFrappuccino.jpg" alt="" class="menuImage"><p>Dark Caramel Coffee Frappuccino</p><p>&#8369; 140.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-espressofrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCOF_EspressoFrappuccino.jpg" alt="" class="menuImage"><p>Espresso Frappuccino</p><p>&#8369; 135.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-mochafrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCOF_MochaFrappuccino.jpg" alt="" class="menuImage"><p>Mocha Frappuccino</p><p>&#8369; 135.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-tripplemochafrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCOF_TripleMochaFrappuccino.jpg" alt="" class="menuImage"><p>Triple Mocha Frappuccino</p><p>&#8369; 140.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-whitemochafrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCOF_WhiteMochaFrappuccino.jpg" alt="" class="menuImage"><p>White Mocha Frappuccino</p><p>&#8369; 140.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-caramelcreamfrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCRE_CaramelCreamFrappuccino.jpg" alt="" class="menuImage"><p>Caramel Cream Frappuccino</p><p>&#8369; 140.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-greencreamfrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCRE_GreenTeaCreamFrappuccino.jpg" alt="" class="menuImage"><p>Green Tea Cream Frappuccino</p><p>&#8369; 140.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-strawcreamfrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCRE_StrawberriesandCreamFrappuccino.jpg" alt="" class="menuImage"><p>Strawberries and Cream Frappuccino</p><p>&#8369; 145.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-vanillacreamfrappe">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/Frappe/FRAPCRE_VanillaCreamFrappuccino.jpg" alt="" class="menuImage"><p>Vanilla Cream Frappuccino</p><p>&#8369; 135.00</p></div>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="container">
+                        <span class="fs-3 fw-bold" id="specials">SPECIALS</span>
+                        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-4 my-5 g-3">
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-chocofloat">
+                                <div class="col  shadow p-3 mb-5 border border-1"><img src="./assets/menu/special/chocofloat.jpeg" alt="" class="menuImage"><p>Chocolate Float</p><p>&#8369; 135.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-classic">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/special/ICHO_IcedClassicChocolate.jpg" alt="" class="menuImage"><p>Iced Classic Chocolate</p><p>&#8369; 120.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-coldfoam">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/special/IESP_ColdFoamIcedEspresso.jpg" alt="" class="menuImage"><p>Cold Foam Iced Cappuccino</p><p>&#8369; 135.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-jasminetea">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/special/jasminematcha.jpeg" alt="" class="menuImage"><p>Jasmine Tea Matcha</p><p>&#8369; 125.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-strwmilktea">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/special/strawberry.jpeg" alt="" class="menuImage"><p>Strawberry Milk Tea</p><p>&#8369; 125.00</p></div>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="container">
+                        <span class="fs-3 fw-bold" id="dessert">DESSERTS</span>
+                        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-4 my-5 g-3">
+    
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-baconbelgian">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/baconbelgian.jpg" alt="" class="menuImage"><p>Bacon Belgian Waffle</p><p>&#8369; 115.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-bananabread">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/bananabread.jpeg" alt="" class="menuImage"><p>Banana Bread</p><p>&#8369; 95.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-belgian">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/belgian.jpg" alt="" class="menuImage"><p>Original Belgian Waffle</p><p>&#8369; 110.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-blueberry">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/blueberrycheesecake.jpg" alt="" class="menuImage"><p>Blue Berry Cheesecake</p><p>&#8369; 120.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-cheesecake">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/cheesecake.jpg" alt="" class="menuImage"><p>Cheesecake</p><p>&#8369; 115.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-chococake">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/chococake.jpg" alt="" class="menuImage"><p>Chocolate Cake</p><p>&#8369; 115.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-chocodonut">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/chocodonut.jpeg" alt="" class="menuImage"><p>Original Chocolate Doughnut</p><p>&#8369; 75.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-chocomacademia">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/chocomacademia.jpg" alt="" class="menuImage"><p>Chocolate Macademia</p><p>&#8369; 75.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-cinnamon">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/cinnamon.jpg" alt="" class="menuImage"><p>Cinnamon Bread</p><p>&#8369; 80.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-croissant">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/croissant.jpg" alt="" class="menuImage"><p>Croissant</p><p>&#8369; 80.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-darkmocha">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/darkmocha.jpeg" alt="" class="menuImage"><p>Dark Mocha Cake</p><p>&#8369; 120.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-ensaymada">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/ensaymada.jpeg" alt="" class="menuImage"><p>Special Ensaymada</p><p>&#8369; 85.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-frenchtoast">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/FrenchToastwithmaplesyrup.jpg" alt="" class="menuImage"><p>French Toast with Maple Syrup</p><p>&#8369; 85.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-glazeddonut">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/glazeddonut.jpeg" alt="" class="menuImage"><p>Glazed Doughnut</p><p>&#8369; 70.00</p></div>
+                            </a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#menu-mangofloat">
+                                <div class="col shadow p-3 mb-5 border border-1"><img src="./assets/menu/mangofloat.jpg" alt="" class="menuImage"><p>Mango Float Cake</p><p>&#8369; 120.00</p></div>
+                            </a>
+                        </div>
+                    </div>
+    
+                </div>
+        </div>
+    
+
+                <!-- end menu -->
+
+        <!-- modal for menu -->
+        <!-- Vertically centered modal -->
+        <div class="modal fade" id="menu-coldbrew" tabindex="-1" aria-labelledby="menu-coldbrew" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Cold Brew</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/brew/CBRE_ColdBrew.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-darkcaramelcoldbrew" tabindex="-1" aria-labelledby="menu-darkcaramelcoldbrew" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Dark Caramel Cold Brew</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/brew/CBRE_DarkCaramelNitroColdBrew.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-saltedcaramelcoldbrew" tabindex="-1" aria-labelledby="menu-saltedcaramelcoldbrew" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Salted Caramel Cold Brew</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/brew/CBRE_SaltedCaramelColdBrew.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="modal fade" id="menu-vanillasweet" tabindex="-1" aria-labelledby="menu-vanillasweet" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Vanilla Sweet Cold Brew</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/brew/CBRE_VanillaSweetCreamColdBrew.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="menu-espresso" tabindex="-1" aria-labelledby="menu-espresso" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Espresso</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/hot/HESP_Espresso.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-espressomacchiato" tabindex="-1" aria-labelledby="menu-espressomacchiato" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Espresso Macchiato</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/hot/HESP_EspressoMacchiato.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-hotbrew" tabindex="-1" aria-labelledby="menu-hotbrew" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Hot Brew</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/hot/hotbrewed.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-hotchoco" tabindex="-1" aria-labelledby="menu-hotchoco" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Hot Chocolate</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/hot/hotchoco.jpeg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-hotwhite" tabindex="-1" aria-labelledby="menu-hotwhite" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Hot White Chocolate</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/hot/hotwhite.jpeg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="menu-hazelnut" tabindex="-1" aria-labelledby="menu-hazelnut" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Hazelnut Iced Coffee</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/iced/hazelnut.jpeg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-icedamericano" tabindex="-1" aria-labelledby="menu-icedamericano" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Iced Americano</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/iced/IESP_IcedAmericano.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-icedcafelatte" tabindex="-1" aria-labelledby="menu-icedcafelatte" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Iced Caffe Latte</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/iced/IESP_IcedCaffeLatte.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-icedcappuccino" tabindex="-1" aria-labelledby="menu-icedcappuccino" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Iced Cappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/iced/IESP_IcedCappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-icedcaramelmacchiato" tabindex="-1" aria-labelledby="menu-icedcaramelmacchiato" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Iced Caramel Macchiato</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/iced/IESP_IcedCaramelMacchiato.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-caramelfrappe" tabindex="-1" aria-labelledby="menu-caramelfrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Caramel Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCOF_CaramelFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-coffeefrappe" tabindex="-1" aria-labelledby="menu-coffeefrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Coffee Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCOF_CoffeeFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-jellyfrappe" tabindex="-1" aria-labelledby="menu-jellyfrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Coffee Jelly Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCOF_CoffeeJellyFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-darkcaramelfrappe" tabindex="-1" aria-labelledby="menu-darkcaramelfrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Dark Caramel Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCOF_DarkCaramelCoffeeFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-espressofrappe" tabindex="-1" aria-labelledby="menu-espressofrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Espresso Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCOF_EspressoFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-mochafrappe" tabindex="-1" aria-labelledby="menu-mochafrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Mocha Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCOF_MochaFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-tripplemochafrappe" tabindex="-1" aria-labelledby="menu-tripplemochafrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Triple Mocha Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCOF_TripleMochaFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-whitemochafrappe" tabindex="-1" aria-labelledby="menu-whitemochafrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>White Mocha Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCOF_WhiteMochaFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="menu-caramelcreamfrappe" tabindex="-1" aria-labelledby="menu-caramelcreamfrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Caramel Cream Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCRE_CaramelCreamFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-greencreamfrappe" tabindex="-1" aria-labelledby="menu-greencreamfrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Green Tea Cream Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCRE_GreenTeaCreamFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-strawcreamfrappe" tabindex="-1" aria-labelledby="menu-strawcreamfrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Strawberries and Cream Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCRE_StrawberriesandCreamFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-vanillacreamfrappe" tabindex="-1" aria-labelledby="menu-vanillacreamfrappe" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Vanilla Cream Frappuccino</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/Frappe/FRAPCRE_VanillaCreamFrappuccino.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-chocofloat" tabindex="-1" aria-labelledby="menu-chocofloat" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Chocolate Float</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/special/chocofloat.jpeg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="menu-classic" tabindex="-1" aria-labelledby="menu-classic" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Iced Classic Chocolate Float</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/special/ICHO_IcedClassicChocolate.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-coldfoam" tabindex="-1" aria-labelledby="menu-coldfoam" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Cold Foam Iced Espresso</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/special/IESP_ColdFoamIcedEspresso.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-jasminetea" tabindex="-1" aria-labelledby="menu-jasminetea" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Jasmine Tea Matcha</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/special/jasminematcha.jpeg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="menu-strwmilktea" tabindex="-1" aria-labelledby="menu-strwmilktea" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Strawberry Milk Tea</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/special/strawberry.jpeg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+  
+        <!-- dessertsmodal -->
+
+        <div class="modal fade" id="menu-baconbelgian" tabindex="-1" aria-labelledby="menu-baconbelgian" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Bacon Belgian Waffle</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/baconbelgian.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="menu-bananabread" tabindex="-1" aria-labelledby="menu-bananabread" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Banana Bread</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/bananabread.jpeg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-belgian" tabindex="-1" aria-labelledby="menu-belgian" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Original Belgian Waffle</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/belgian.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-blueberry" tabindex="-1" aria-labelledby="menu-blueberry" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Blue Berry Cheesecake</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/blueberrycheesecake.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-cheesecake" tabindex="-1" aria-labelledby="menu-cheesecake" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Cheesecake</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/cheesecake.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-chococake" tabindex="-1" aria-labelledby="menu-chococake" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Chocolate Cake</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/chococake.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-chocodonut" tabindex="-1" aria-labelledby="menu-chocodonut" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Original Chocolate Doughnut</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/chocodonut.jpeg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-chocomacademia" tabindex="-1" aria-labelledby="menu-chocomacademia" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Chocolate Macademia</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/chocomacademia.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-cinnamon" tabindex="-1" aria-labelledby="menu-cinnamon" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Cinnamon Bread</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/cinnamon.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="menu-croissant" tabindex="-1" aria-labelledby="menu-croissant" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Croissant</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/croissant.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-darkmocha" tabindex="-1" aria-labelledby="menu-darkmocha" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Dark Mocha Cake</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/darkmocha.jpeg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-ensaymada" tabindex="-1" aria-labelledby="menu-ensaymada" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Ensaymada</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/ensaymada.jpeg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-frenchtoast" tabindex="-1" aria-labelledby="menu-frenchtoast" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>French Toast with Maple Syrup</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/FrenchToastwithmaplesyrup.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-glazeddonut" tabindex="-1" aria-labelledby="menu-glazeddonut" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Glazed Doughnut</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/glazeddonut.jpeg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="menu-mangofloat" tabindex="-1" aria-labelledby="menu-mangofloat" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Mango Float Cake</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                        <div class="modal-body d-lg-flex d-md-block">
+                            <div class="p-3">
+                                <img src="./assets/menu/mangofloat.jpg">
+                            </div>
+                            <div class="p-2">
+                                <p class="mt-3">item description goes here<br>ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nam.</p>
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+ <!-- footer -->
+ <footer class="bg-dark text-white-50 p-3">
+    <div class="container text-center">
+        <div class="row text-center">
+            
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto">
+                <p><i class="fa-solid fa-location-dot"></i>&nbsp;Address: No. 48 Lilac St. corner Kanlaon St.,
+                    Concepcion Dos, Marikina City</p><hr>
+                <p><i class="fa-regular fa-clock"></i>&nbsp;Business Hours: Open daily from 8AM to 9PM</p>
+                
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto">
+                <h4>Blac Coffee</h4>
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                
+
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto">
+                <p>Copyrights &#169; 2023 All Rights Reserved</p><hr>
+                <p>Mini Project 1 by : Adora delos Santos WD40P
+                <div class="d-inline-flex">
+                    <a class="nav-link px-2" href="https://www.facebook.com/dorabogsz" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="nav-link px-2" href="https://www.instagram.com/dorabogs" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="nav-link px-2" href="https://github.com/delossantosAN" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+                        
+                    
+</footer>
+
+
+
+    
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
