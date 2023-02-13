@@ -1,6 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+#contact{
+    font-size: 0.8rem;
+}
+.form-control{
+    font-size: 0.7rem;
+}
 /* index.html css here */
 .bg-image{
     background-image: url("./assets/bg-img.jpg");
@@ -62,9 +68,7 @@ footer{
     width: 150px;
     height: 150px;
 }
-.merch{
-    max-width: 1200px;
-}
+
 
 /* modal */
 .modal img{
@@ -80,3 +84,4 @@ footer{
 .nav2{
     padding-top: 5rem;
 }
+ 
