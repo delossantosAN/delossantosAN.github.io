@@ -86,4 +86,18 @@ footer{
 .nav2{
     padding-top: 5rem;
 }
- 
+.merch-list{
+    font-size: 0.8rem;
+}
+.fa-cart-shopping{
+    font-size: 1.3rem;
+}
+.small{
+    width: 30px;
+}
+.check-out{
+    background-color: rgb(210, 245, 255);
+}
+.check-out:hover{
+    background-color: rgb(129, 228, 255);
+}

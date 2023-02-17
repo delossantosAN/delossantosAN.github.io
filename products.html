@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/blac-icon.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/6abc016678.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,17 +21,18 @@
                     <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="fa-solid fa-bars-staggered"></span>
                     </button>
-                    <a class="navbar-brand" href="index2.html"></i>BLAC COFFEE</a>
+                    <a class="navbar-brand" href="index.html"></i>BLAC COFFEE</a>
                     </div>
                     
                 <div class=" collapse navbar-collapse" id="navbarNav">
                      <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="menu.html">Menu</a>
+                            <a class="nav-link" href="index2.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index2.html">Features</a>
+                            <a class="nav-link" aria-current="page" href="menu.html">Menu</a>
                         </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="products.html">Products</a>
                         </li>    
@@ -42,13 +44,71 @@
                 </div>
             </nav>
     </header>
+    <!-- contact us section -->
+
+
+<div class="modal fade" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="contact" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+            <div class="modal-header bg-dark text-muted">
+                <h5 class="text-white-50 fs-5" id="contact">Contact Us!</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>We like to hear from you! Any questions, comments or suggestions about our shop and services? Send as a message</p> 
+            <form>
+                <div class="container mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control border border-success" id="email" aria-describedby="email" placeholder="email@email.com" required>
+                </div>
+                <div class="container mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control  border border-success" id="name" placeholder="Juan dela Cruz" required>
+                </div>
+                <div class="container mb-3">
+                <label class="message" for="message">Your Message</label>
+                <textarea class="form-control  border border-success" placeholder="Your Message" id="message" required></textarea>
+                </div>
+                <div class="container" >
+                    <button type="submit" class="btn btn-outline-success">Submit</button>
+                </div>
+            </form>
+            </div>
+            <div class="container">
+                <p>or send us  a direct message on our social media sites</p>
+                    <div class="container">
+                        <a href="https://www.facebook.com/badlatteartcoffee" target="_blank"><i class="fa-brands fa-facebook mx-2"></i></a>
+                        <a href="https://www.instagram.com/badlatteartcoffee" target="_blank"><i class="fa-brands fa-instagram mx-2"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="container">
+                        <p>Vist us at </p>
+                        <p><i class="fa-solid fa-location-dot"></i>&nbsp;Address: No. 48 Lilac St. corner Kanlaon St.,
+                            Concepcion Dos, Marikina City</p><hr>
+                        <p><i class="fa-regular fa-clock"></i>&nbsp;Business Hours: Open daily from 8AM to 9PM</p>
+
+                    </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ends here-->
+
     <!-- nav ends here -->
 <main>
-    <div class="container pt-5 merch">
+    <div class="container pt-5 mx-auto merch">
+        <div class="container d-flex justify-content-end pt-5">
+            <button type="button" class="p-2 px-3 bg-opacity-10 border border-info border-end-0 rounded-start check-out"><i class="fa-solid fa-bag-shopping"></i></button>
+            <button type="button" class="p-2 px-3 bg-opacity-10 border border-info border-start-1 rounded-end check-out" data-bs-toggle="modal" data-bs-target="#checkout"><span class="">CHECK OUT</span></button>
+        </div>
 
         <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-3 g-5">
-                <div class="container merch-list text-center shadow p-3 mb-5 border border-1">
+            <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+                <div class="container merch-list text-center shadow p-3 mb-3 border border-1">
                     <img src="./assets/Merchs/merch-1.jpg" alt=""  class="merch-img"  srcset="">
                     <div class="text-center">
                     <div class="rating text-center">
@@ -57,18 +117,22 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
                         </span>
                     </div>
-                    <p>Blac&#169; Coffee Mug 16oz Black</p><br>
+                    <p>Blac&#169; Coffee Mug 16oz Black</p>
                     <span>&#8369;150.00</span>
-
-                </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="border border-end-0 rounded-start p-2">&#8722;</button>
+                        <input type="text" placeholder="1" min="1" class="small p-2" style="text-align: center;" disabled>
+                        <button type="button" class="border border-start-1 rounded-end p-2">&#43;</button>
+                    </div>
+                    <div class="container mt-2"><button type="button" class="btn btn-warning p-0"><i class="fa-solid fa-cart-shopping p-2"></i></button></div>                </div>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-3 g-5">
-                <div class="container merch-list text-center shadow p-3 mb-5 border border-1">
+            <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+                <div class="container merch-list text-center shadow p-3 mb-3 border border-1">
                     <div>
                         <img src="./assets/Merchs/merch-2.png" alt=""  class="merch-img"  srcset="">
                     </div>
@@ -78,17 +142,22 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
                         </span>
                     </div>
-                    <p>Blac&#169; Coffee Mug 160z Cream</p><br>
+                    <p>Blac&#169; Coffee Mug 160z Cream</p>
                     <span>&#8369;150.00</span>
-                </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="border border-end-0 rounded-start p-2">&#8722;</button>
+                        <input type="text" placeholder="1" min="1" class="small p-2" style="text-align: center;" disabled>
+                        <button type="button" class="border border-start-1 rounded-end p-2">&#43;</button>
+                    </div>
+                    <div class="container mt-2"><button type="button" class="btn btn-warning p-0"><i class="fa-solid fa-cart-shopping p-2"></i></button></div>                </div>
             </div>
 
 
-            <div class="col-sm-6 col-md-4 col-lg-3 g-5">
-                <div class="container merch-list text-center shadow p-3 mb-5 border border-1">
+            <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+                <div class="container merch-list text-center shadow p-3 mb-3 border border-1">
                     <div>
                         <img src="./assets/Merchs/merch-3.jpg" alt=""  class="merch-img"  srcset="">
                     </div>
@@ -98,18 +167,22 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
                         </span>
                     </div>
-                    <p>Blac&#169; Coffee Mug 12oz</p>
-                    <p>(Pink/Blue/Black)</p>
+                    <p>Blac&#169; Coffee Mug 12oz (Pink/Blue/Black)</p>
                     <span>&#8369;150.00</span>
-                </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="border border-end-0 rounded-start p-2">&#8722;</button>
+                        <input type="text" placeholder="1" min="1" class="small p-2" style="text-align: center;" disabled>
+                        <button type="button" class="border border-start-1 rounded-end p-2">&#43;</button>
+                    </div>
+                    <div class="container mt-2"><button type="button" class="btn btn-warning p-0"><i class="fa-solid fa-cart-shopping p-2"></i></button></div>                </div>
             </div>
 
 
-            <div class="col-sm-6 col-md-4 col-lg-3 g-5">
-                <div class="container merch-list text-center shadow p-3 mb-5 border border-1">
+            <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+                <div class="container merch-list text-center shadow p-3 mb-3 border border-1">
                     <div>
                         <img src="./assets/Merchs/merch-4.jpg" alt=""  class="merch-img"  srcset="">
                     </div>
@@ -119,18 +192,22 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
                         </span>
                     </div>
-                    <p>Blac&#169; Coffee Mug 120z</p>   
-                    <p>Buy 1 Take 1</p>
-                    <span>&#8369;150.00</span>
-                </div>
+                    <p>Blac&#169; Coffee Mug 120z Buy 1 Take 1</p>
+                    <span>&#8369;300.00</span>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="border border-end-0 rounded-start p-2">&#8722;</button>
+                        <input type="text" placeholder="1" min="1" class="small p-2" style="text-align: center;" disabled>
+                        <button type="button" class="border border-start-1 rounded-end p-2">&#43;</button>
+                    </div>
+                    <div class="container mt-2"><button type="button" class="btn btn-warning p-0"><i class="fa-solid fa-cart-shopping p-2"></i></button></div>                </div>
             </div>
             
             
-            <div class="col-sm-6 col-md-4 col-lg-3 g-5">
-                <div class="container merch-list text-center shadow p-3 mb-5 border border-1">
+            <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+                <div class="container merch-list text-center shadow p-3 mb-3 border border-1">
                     <div>
                         <img src="./assets/Merchs/merch-5.webp" alt=""  class="merch-img"  srcset="">
                     </div>
@@ -143,13 +220,18 @@
                         <i class="fa-solid fa-star"></i>
                         </span>
                     </div>
-                    <p>Blac&#169; Coin Purse</p><br>
+                    <p>Blac&#169; Coin Purse</p>
                     <span>&#8369;150.00</span>
-                </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="border border-end-0 rounded-start p-2">&#8722;</button>
+                        <input type="text" placeholder="1" min="1" class="small p-2" style="text-align: center;" disabled>
+                        <button type="button" class="border border-start-1 rounded-end p-2">&#43;</button>
+                    </div>
+                    <div class="container mt-2"><button type="button" class="btn btn-warning p-0"><i class="fa-solid fa-cart-shopping p-2"></i></button></div>                </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-3 g-5">
-                <div class="container merch-list text-center shadow p-3 mb-5 border border-1">
+            <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+                <div class="container merch-list text-center shadow p-3 mb-3 border border-1">
                     <div>
                         <img src="./assets/Merchs/merch-6.jpg" alt=""  class="merch-img"  srcset="">
                     </div>
@@ -159,17 +241,22 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
                         </span>
                     </div>
-                    <p>Blac&#169; Coin Purse Brown</p><br>
-                    <span>&#8369;150.00</span>
-                </div>
+                    <p>Blac&#169; Coin Purse Brown</p>
+                    <span>&#8369;200.00</span>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="border border-end-0 rounded-start p-2">&#8722;</button>
+                        <input type="text" placeholder="1" min="1" class="small p-2" style="text-align: center;" disabled>
+                        <button type="button" class="border border-start-1 rounded-end p-2">&#43;</button>
+                    </div>
+                    <div class="container mt-2"><button type="button" class="btn btn-warning p-0"><i class="fa-solid fa-cart-shopping p-2"></i></button></div>                </div>
             </div>
 
 
-            <div class="col-sm-6 col-md-4 col-lg-3 g-5">
-                <div class="container merch-list text-center shadow p-3 mb-5 border border-1">
+            <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+                <div class="container merch-list text-center shadow p-3 mb-3 border border-1">
                     <div>
                         <img src="./assets/Merchs/merch-7.webp" alt=""  class="merch-img"  srcset="">
                     </div>
@@ -182,14 +269,19 @@
                         <i class="fa-solid fa-star"></i>
                         </span>
                     </div>
-                    <p>Blac&#169; Card Holder</p><br>
-                    <span>&#8369;150.00</span>
-                </div>
+                    <p>Blac&#169; Card Holder</p>
+                    <span>&#8369;200.00</span>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="border border-end-0 rounded-start p-2">&#8722;</button>
+                        <input type="text" placeholder="1" min="1" class="small p-2" style="text-align: center;" disabled>
+                        <button type="button" class="border border-start-1 rounded-end p-2">&#43;</button>
+                    </div>
+                    <div class="container mt-2"><button type="button" class="btn btn-warning p-0"><i class="fa-solid fa-cart-shopping p-2"></i></button></div>                </div>
             </div>
 
 
-            <div class="col-sm-6 col-md-4 col-lg-3 g-5">
-                <div class="container merch-list text-center shadow p-3 mb-5 border border-1">
+            <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+                <div class="container merch-list text-center shadow p-3 mb-3 border border-1">
                     <div>
                         <img src="./assets/Merchs/merch-8.webp" alt=""  class="merch-img"  srcset="">
                     </div>
@@ -199,11 +291,65 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
                         </span>
                     </div>
-                    <p>Blac&#169; Coffee Tshirt</p><br>
-                    <span>&#8369;150.00</span>
+                    <p>Blac&#169; Coffee Tshirt (Black S/M/L)</p>
+                    <span>&#8369;250.00</span>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="border border-end-0 rounded-start p-2">&#8722;</button>
+                        <input type="text" placeholder="1" min="1" class="small p-2" style="text-align: center;" disabled>
+                        <button type="button" class="border border-start-1 rounded-end p-2">&#43;</button>
+                    </div>
+                    <div class="container mt-2"><button type="button" class="btn btn-warning p-0"><i class="fa-solid fa-cart-shopping p-2"></i></button></div>                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+                <div class="container merch-list text-center shadow p-3 mb-3 border border-1">
+                    <div>
+                        <img src="./assets/Merchs/merch-9.webp" alt=""  class="merch-img"  srcset="">
+                    </div>
+                    <div class="rating">
+                        <span class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                    </div>
+                    <p>Blac&#169; Coffee Tshirt (White S/M/L)</p>
+                    <span>&#8369;250.00</span>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="border border-end-0 rounded-start p-2">&#8722;</button>
+                        <input type="text" placeholder="1" min="1" class="small p-2" style="text-align: center;" disabled>
+                        <button type="button" class="border border-start-1 rounded-end p-2">&#43;</button>
+                    </div>
+                    <div class="container mt-2"><button type="button" class="btn btn-warning p-0"><i class="fa-solid fa-cart-shopping p-2"></i></button></div>                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+                <div class="container merch-list text-center shadow p-3 mb-3 border border-1">
+                    <div>
+                        <img src="./assets/Merchs/merch-10.jpg"  class="merch-img"  srcset="">
+                    </div>
+                    <div class="rating">
+                        <span class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                    </div>
+                    <p>Blac&#169; Coffee Beans</p>
+                    <span>&#8369;350.00</span>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="border border-end-0 rounded-start p-2">&#8722;</button>
+                        <input type="text" placeholder="1" min="1" class="small p-2" style="text-align: center;" disabled>
+                        <button type="button" class="border border-start-1 rounded-end p-2">&#43;</button>
+                    </div>
+                    <div class="container mt-2"><button type="button" class="btn btn-warning p-0"><i class="fa-solid fa-cart-shopping p-2"></i></button></div>
                 </div>
             </div>
         
@@ -212,95 +358,85 @@
 
     </div>
 </main>
+    <!-- footer -->
+    <footer class="bg-dark text-white-50 p-3">
+        <div class="container text-center">
+            <div class="row text-center">
+                
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto">
+                    <p><i class="fa-solid fa-location-dot"></i>&nbsp;Address: No. 48 Lilac St. corner Kanlaon St.,
+                        Concepcion Dos, Marikina City</p><hr>
+                    <p><i class="fa-regular fa-clock"></i>&nbsp;Business Hours: Open daily from 8AM to 9PM</p>
+                    
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto">
+                    <h4>Blac Coffee</h4>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                    
 
-<!-- contact us section -->
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto">
+                    <p>Copyrights &#169; 2023 All Rights Reserved</p><hr>
+                    <p>Mini Project 1 by : Adora delos Santos WD40P
+                    <div class="d-inline-flex">
+                        <a class="nav-link px-2" href="https://www.facebook.com/dorabogsz" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="nav-link px-2" href="https://www.instagram.com/dorabogs" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="nav-link px-2" href="https://github.com/delossantosAN" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                    </div>
+                </div>
+                
 
-
-<div class="modal fade" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="contact" aria-hidden="true">
+            </div>
+        </div>
+                            
+                        
+    </footer>
+<!-- checkout section -->
+<div class="modal fade" id="checkout" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="checkout" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header bg-dark text-muted">
-          <h5 class="text-white-50 fs-5" id="contact">Contact Us!</h5>
+          <h5 class="text-white-50 fs-5" id="contact">Enter your information to checkout</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p>We like to hear from you! Any questions, comments or suggestions about our shop and services? Send as a message</p> 
+           
           <form>
             <div class="container mb-3">
               <label for="email" class="form-label">Email address</label>
               <input type="email" class="form-control border border-success" id="email" aria-describedby="email" placeholder="email@email.com" required>
             </div>
             <div class="container mb-3">
-              <label for="name" class="form-label">Name</label>
+              <label for="name" class="form-label">Full Name: (FN MI. LN)</label>
               <input type="text" class="form-control  border border-success" id="name" placeholder="Juan dela Cruz" required>
             </div>
             <div class="container mb-3">
-              <label class="message" for="message">Your Message</label>
-              <textarea class="form-control  border border-success" placeholder="Your Message" id="message" required></textarea>
-            </div>
+                <label for="name" class="form-label">Complete Address:</label>
+                <input type="text" class="form-control  border border-success" id="name" placeholder="house no, street, brgy, city" required>
+              </div>
+              <div class="container mb-3">
+                <label for="name" class="form-label">Contact Number:</label>
+                <input type="text" class="form-control  border border-success" id="name" placeholder="+639271111111" required>
+              </div>
+              <div class="container mb-3">
+                <label for="name" class="form-label">Alternative Contact Number:</label>
+                <input type="text" class="form-control  border border-success" id="name" placeholder="+639271111111" required>
+              </div>
             <div class="container" >
                 <button type="submit" class="btn btn-outline-success">Submit</button>
             </div>
+            <p>Expect a call from us to confirm your order before ship out. Thank you!</p>
           </form>
         </div>
-        <div class="container">
-            <p>or send us  a direct message on our social media sites</p>
-            <div class="container">
-                <a href="https://www.facebook.com/badlatteartcoffee" target="_blank"><i class="fa-brands fa-facebook mx-2"></i></a>
-                <a href="https://www.instagram.com/badlatteartcoffee" target="_blank"><i class="fa-brands fa-instagram mx-2"></i></a>
-                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-            </div>
-            <div class="container">
-                <p>Vist us at </p>
-                <p><i class="fa-solid fa-location-dot"></i>&nbsp;Address: No. 48 Lilac St. corner Kanlaon St.,
-                    Concepcion Dos, Marikina City</p><hr>
-                <p><i class="fa-regular fa-clock"></i>&nbsp;Business Hours: Open daily from 8AM to 9PM</p>
-
-            </div>
-        </div>
-        
-      </div>
     </div>
-  </div>
+</div>
+<!-- checkout ends -->
 
 
 
-<!-- ends here-->
 
 
 
-<footer class="bg-dark text-white-50 p-3">
-    <div class="container text-center">
-        <div class="row text-center">
-            
-            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto">
-                <p><i class="fa-solid fa-location-dot"></i>&nbsp;Address: No. 48 Lilac St. corner Kanlaon St.,
-                    Concepcion Dos, Marikina City</p><hr>
-                <p><i class="fa-regular fa-clock"></i>&nbsp;Business Hours: Open daily from 8AM to 9PM</p>
-                
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto">
-                <h4>Blac Coffee</h4>
-                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                
-
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto">
-                <p>Copyrights &#169; 2023 All Rights Reserved</p><hr>
-                <p>Mini Project 1 by : Adora delos Santos WD40P
-                <div class="d-inline-flex">
-                    <a class="nav-link px-2" href="https://www.facebook.com/dorabogsz" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a class="nav-link px-2" href="https://www.instagram.com/dorabogs" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a class="nav-link px-2" href="https://github.com/delossantosAN" target="_blank"><i class="fa-brands fa-github"></i></i></a>
-                </div>
-            </div>
-            
-
-        </div>
-    </div>
-                        
-                    
-</footer>
 
 <!-- bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
